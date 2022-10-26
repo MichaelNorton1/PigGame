@@ -169,3 +169,14 @@ main {
 .hidden {
   display: none;
 }
+@media only screen and (max-width: 415px) {
+  .player {
+    padding: 0px;
+  }
+  .current {
+    padding: 0px;
+  }
+  .btn--new {
+    top: 15em;
+  }
+}
